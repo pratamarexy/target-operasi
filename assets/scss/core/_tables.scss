@@ -1,0 +1,36 @@
+.table-outline {
+  border: 1px solid $table-border-color;
+
+  td {
+    vertical-align: middle;
+  }
+}
+
+.table-align-middle {
+
+  td {
+    vertical-align: middle;
+  }
+}
+
+.table-clear {
+  td {
+    border: 0;
+  }
+}
+.table {
+  thead{
+    th{
+      vertical-align: bottom;
+      border-bottom: none;
+      border: none;
+      background: #F5F6FA;
+      padding: 16px 15px;
+    }
+  }
+  td{
+    padding: 20px 15px;
+    vertical-align: middle;
+    border-top: 1px solid #EFEFEF;
+  }
+}
